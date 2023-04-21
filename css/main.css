@@ -1,0 +1,80 @@
+
+#container{
+
+    display:grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: calc(5.33vh - 5px) calc(10.33vh - 10px) calc(33.33vh - 10px) calc(10.33vh - 5px) calc(10.33vh - 5px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: black;
+    }
+
+
+    #container .celda1{
+
+
+    background-color: cyan;
+    grid-column: 1/4;
+    grid-row: 1/ -6;
+    font-size: 20px;
+    grid-template-columns: 10px;
+
+
+    }
+
+
+    #container .celda2{
+
+    background-color: cyan;
+    grid-column: 1/4   ;
+    grid-row: 2/-5;
+    font-size: xx-large;
+    color: white;
+    font-weight:bold
+
+
+    }
+
+
+    #container .celda3{
+
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: ;
+    font-size: x-large;
+    text-align: center;
+
+
+    }
+
+    #container .celda4{
+
+        grid-column: 1/2;
+        grid-row: 4/5;
+       
+
+    }
+
+
+    #container .celda5{
+
+        font-size: x-large;
+        grid-column: 1/4;
+        grid-row:5/6 ;
+        background-color: cyan;
+        padding: 20px;
+
+
+    }
+
+
+    #container .celda6{
+
+        grid-column: 2/4;
+        grid-row: 3/-4;
+
+
+
+    }
+
